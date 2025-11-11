@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Lucas precisa do medicamento Zinforo e fraldas. Ajude agora com uma doação via PIX.">
+    <meta name="theme-color" content="#e53935">
+    <title>Ajude o Lucas | Doe com Confiança</title>
+    <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','663388620136489');fbq('track','PageView');
+    </script>
+    <noscript>
+        <img height=1 width=1 style=display:none src="https://www.facebook.com/tr?id=663388620136489&ev=PageView&noscript=1">
+    </noscript>
+    <style>
+        *,*::before,*::after{box-sizing:border-box}html,body{margin:0;padding:0;width:100%;max-width:100%;overflow-x:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;background:#fffdfd;color:#333}header{background:#d10000;color:#fff;padding:20px;text-align:center}header h1{margin:0;font-size:1.6em;color:#ff0}.info{padding:16px;text-align:center;font-size:1.1em}.video-container{max-width:480px;margin:auto;border-radius:12px;overflow:hidden;position:relative}video{width:100%;height:auto;display:block}.video-loading{display:flex;justify-content:center;align-items:center;height:270px;background:#f5f5f5}.spinner{width:40px;height:40px;border:4px solid rgba(255,255,255,.3);border-radius:50%;border-top:4px solid #fff;animation:spin 1s linear infinite}@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.copy-box{max-width:480px;margin:20px auto;padding:16px;border:2px solid #388e3c;background:#e8f5e9;border-radius:12px;text-align:center}.pix-code{background:#fff;border:2px dashed #388e3c;padding:10px;border-radius:8px;font-size:18px;font-family:monospace;margin:10px 0;word-break:break-word}.copy-btn{background:#0fb600;color:#fff;padding:12px 24px;border:none;border-radius:25px;font-size:16px;font-weight:bold;width:100%;max-width:480px;margin:0 auto;display:block;cursor:pointer}.copy-btn:hover{background:#2e7d32}.instructions{max-width:480px;margin:20px auto;font-size:1em}.instructions h3{color:#c62828;text-align:center}.instructions ol{padding-left:20px}footer{text-align:center;font-size:.9em;color:#777;margin-top:40px;padding-bottom:20px}@media (max-width:500px){.copy-btn{font-size:14px;padding:12px 18px}}@media screen and (orientation:landscape){html,body{max-width:100vw;overflow-x:hidden}}.notification{position:fixed;bottom:20px;right:20px;max-width:90vw;background-color:#00c853;color:#fff;padding:10px 16px;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.2);opacity:0;animation:fadeInOut 4s ease-in-out;font-size:1rem;z-index:9999}@keyframes fadeInOut{0%{opacity:0;transform:translateY(20px)}10%{opacity:1;transform:translateY(0)}90%{opacity:1}100%{opacity:0;transform:translateY(-20px)}}.med-info{background:#e3f2fd;border-radius:8px;padding:15px;margin:20px auto;max-width:480px;text-align:center}.med-info h3{color:#1565c0;margin-top:0}.beneficiary-info{background:#fff3e0;border-radius:8px;padding:12px;margin:15px 0;font-weight:bold;color:#e65100}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E se fosse seu filho que só tem 72 horas e precisa deste antibiótico para sobreviver?</h1>
+        <p>O Lucas precisa do antibiótico Zinforo e fraldas, mas o SUS não fornece e a família não tem condições de pagar.</p>
+    </header>
+    <section class="info">
+        <p>Lucas tem uma infecção grave que só responde ao antibiótico Zinforo, um medicamento caríssimo que não é fornecido pelo SUS. Além disso, ele precisa de fraldas especiais devido às suas condições de saúde. A família não tem condições financeiras para arcar sozinha com esses custos. <a href="#copy-box">CLIQUE AQUI E AJUDE COM QUALQUER VALOR NO PIX</a></p>
+    </section>
+    <div class="video-container">
+        <div class="video-loading" id="loadingSpinner">
+            <div class="spinner"></div>
+        </div>
+        <video id="mainVideo" preload="metadata" autoplay muted playsinline loop onloadeddata="document.getElementById('loadingSpinner').style.display='none'">
+            <source src="https://verilmax.com.br/4nwn2aNUlGKxEfot9goLgA.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+        </video>
+    </div>
+    <div class="copy-box" id="copy-box">
+        <p><strong>Chave PIX para doação:</strong></p>
+        <div class="pix-code" id="pixKey">apoielucas@yahoo.com</div>
+        <div class="beneficiary-info">Beneficiário: Jean Carmo (Pai do Lucas)</div>
+        <p><button class="copy-btn" onclick="copiarPix()">CLIQUE AQUI PARA COPIAR A CHAVE PIX</button></p>
+    </div>
+    <div class="instructions">
+        <h3>Como doar:</h3>
+        <ol>
+            <li>Clique no botão verde para copiar a chave Pix.</li>
+            <li>Abra o aplicativo do seu banco.</li>
+            <li>Escolha a opção "Pix" e cole a chave copiada.</li>
+            <li>Digite o valor que deseja doar e confirme.</li>
+        </ol>
+    </div>
+    <footer>
+        <div style="margin-top:30px;text-align:center">
+            <a href="#" target="_blank" rel="noopener"></a>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){
+            const e=document.getElementById('mainVideo'),
+                  t=document.getElementById('loadingSpinner');
+            e.setAttribute('preload','auto'),
+            e.readyState>=3&&(t.style.display='none'),
+            e.addEventListener('loadeddata',function(){
+                t.style.display='none'
+            }),
+            e.addEventListener('error',function(){
+                t.style.display='none',
+                console.error('Erro ao carregar o vídeo')
+            }),
+            e.paused&&e.play().catch(e=>console.log('Autoplay bloqueado:',e))
+        });
+        function copiarPix(){
+            const e=document.getElementById("pixKey").textContent;
+            if(navigator.clipboard){
+                navigator.clipboard.writeText(e).then(()=>{
+                    alert("✅ Chave PIX copiada com sucesso! Abra o app do seu banco para doar."),
+                    "undefined"!=typeof fbq&&fbq('track','Donate',{value:11,currency:'BRL'})
+                }).catch(()=>{
+                    alert("❌ Não foi possível copiar. Copie manualmente, por favor.")
+                })
+            }else{
+                const t=document.createElement("textarea");
+                t.value=e,document.body.appendChild(t),t.select();
+                try{
+                    document.execCommand('copy'),
+                    alert("✅ Chave PIX copiada com sucesso! Abra o app do seu banco para doar."),
+                    "undefined"!=typeof fbq&&fbq('track','Donate',{value:11,currency:'BRL'})
+                }catch(e){
+                    alert("❌ Não foi possível copiar. Copie manualmente, por favor.")
+                }
+                document.body.removeChild(t)
+            }
+        }
+        const e=["Maria","João","Ana","José","Sandra","Luiz","Rosana","Carlos","Eliane","Marcos","Tânia","Paulo","Neusa","Antônio","Célia","Ricardo","Fátima","Cláudia","Francisco","Vera","Márcia","Simone","Carmo","Gilberto","Roberto","Sônia","Valdirene","Eduardo","Rita","Denise","Regina","Jorge","Lúcia","Adriana","Sérgio","Helena","Patrícia","Cláudio","Débora","Luciano","Marta","Wilson","Ivone","Almir","Elenice","Nelson","Sueli","Terezinha"],
+              t=[5,10,15,20,25,50,100];
+        function gerarNotificacao(){
+            const n=e[Math.floor(Math.random()*e.length)],
+                  o=t[Math.floor(Math.random()*t.length)],
+                  c=document.createElement('div');
+            c.className='notification',
+            c.innerText=`${n} acabou de doar R$ ${o},00`,
+            document.body.appendChild(c),
+            setTimeout(()=>{
+                c.parentNode&&c.parentNode.removeChild(c)
+            },4e3)
+        }
+        function iniciarNotificacoes(){
+            setTimeout(function n(){
+                gerarNotificacao(),
+                setTimeout(n,Math.random()*(8e3-3e3)+3e3)
+            },2e3)
+        }
+        'loading'===document.readyState?document.addEventListener('DOMContentLoaded',iniciarNotificacoes):iniciarNotificacoes();
+    </script>
+</body>
+</html>
